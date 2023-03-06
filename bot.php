@@ -1,10 +1,10 @@
 <?php
 system('clear');
-error_reporting(0);
+//error_reporting(0);
 $l = str_repeat("~",60);
 
 
-        $url, $post = 0, $httpheader = 0, $proxy = 0){ // url, postdata, http headers, proxy, uagent
+function curl($url, $post = 0, $httpheader = 0, $proxy = 0){ // url, postdata, http headers, proxy, uagent
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
