@@ -61,7 +61,7 @@ $cookie=json_decode(file_get_contents("data.json"),true)["Cookie"];
 if(!file_exists("data.json")){
 while("true"){
 system("clear");
-jam();
+
 ban();
 $api["Cookie"]=readline("\033[1;97mInput Your Cookie : \033[1;92m");
 if($api["Cookie"]!=""){
@@ -70,7 +70,7 @@ break;
 }
 while("true"){
 system("clear");
-jam();
+
 ban();
 $api["User"]=readline("\033[1;97mInput Your User-agent : \033[1;92m");
 if($api["User"]!=""){
