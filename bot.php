@@ -1,4 +1,4 @@
-<?php
+
 system('clear');
 //error_reporting(0);
 $l = str_repeat("~",60);
